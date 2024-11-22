@@ -1,0 +1,15 @@
+﻿@model IEnumerable<WebLab.Models.LOAIXE>
+
+@foreach (var item in Model)
+{
+   
+
+    <li>
+        <div class="d-flex justify-content-between fruite-name">
+            <a href="@Url.Action("SPTheoLoaiXe", "QuanLyXe",new {id = item.MaLX})">
+                @item.TenLoaiXe
+            </a>
+        </div>
+    </li>
+
+}    
