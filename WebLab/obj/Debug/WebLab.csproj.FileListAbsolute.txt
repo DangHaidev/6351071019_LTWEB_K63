@@ -51,6 +51,7 @@ D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\roslyn\vbc.rsp
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\roslyn\VBCSCompiler.exe
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\roslyn\VBCSCompiler.exe.config
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\Antlr3.Runtime.dll
+D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\EntityFramework.dll
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\Microsoft.Web.Infrastructure.dll
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\Newtonsoft.Json.dll
@@ -62,6 +63,7 @@ D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\System.Web.WebPages.Deployment.dl
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\System.Web.WebPages.dll
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\System.Web.WebPages.Razor.dll
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\WebGrease.dll
+D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\EntityFramework.xml
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\System.Web.Helpers.xml
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\System.Web.Mvc.xml
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\System.Web.Optimization.xml
@@ -77,5 +79,3 @@ D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.csproj.CoreCompileIn
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.csproj.Up2Date
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.dll
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.pdb
-D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\EntityFramework.dll
-D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\EntityFramework.xml

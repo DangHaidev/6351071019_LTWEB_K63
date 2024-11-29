@@ -1,7 +1,60 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|d:\\university\\hk1-y3\\laptrinhweb_n2\\weblab\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|d:\\university\\hk1-y3\\laptrinhweb_n2\\weblab\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|d:\\university\\hk1-y3\\laptrinhweb_n2\\weblab\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|d:\\university\\hk1-y3\\laptrinhweb_n2\\weblab\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\views\\quanlyxe\\loaixe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\quanlyxe\\loaixe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\controllers\\quanlyxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:controllers\\quanlyxecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|d:\\university\\hk1-y3\\laptrinhweb_n2\\weblab\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|d:\\university\\hk1-y3\\laptrinhweb_n2\\weblab\\models\\chitietdonthang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:models\\chitietdonthang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\views\\quanlyxe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFDF2AC9-BB13-4D69-8FAD-47DA3D458D69}|WebLab.csproj|solutionrelative:views\\quanlyxe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +62,179 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XacNhanDonHang.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\XacNhanDonHang.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\GioHang\\XacNhanDonHang.cshtml*",
+              "RelativeToolTip": "Views\\GioHang\\XacNhanDonHang.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T09:17:55.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatHang.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\DatHang.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\DatHang.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAYwGgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T09:04:10.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "Views\\GioHang\\GioHang.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeToolTip": "Views\\GioHang\\GioHang.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T07:37:48.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GioHangController.cs",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Controllers\\GioHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GioHangController.cs",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Controllers\\GioHangController.cs",
+              "RelativeToolTip": "Controllers\\GioHangController.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAswK4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:25:00.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CHITIETDONTHANG.cs",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Models\\CHITIETDONTHANG.cs",
+              "RelativeDocumentMoniker": "Models\\CHITIETDONTHANG.cs",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Models\\CHITIETDONTHANG.cs",
+              "RelativeToolTip": "Models\\CHITIETDONTHANG.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:18:25.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Account\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SignIn.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Account\\SignIn.cshtml",
+              "RelativeToolTip": "Views\\Account\\SignIn.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T06:30:14.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Account\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SignUp.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Account\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\Account\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T15:16:48.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAASwE0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:10:45.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\QuanLyXe\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuanLyXe\\Index.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\QuanLyXe\\Index.cshtml",
+              "RelativeToolTip": "Views\\QuanLyXe\\Index.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T10:03:58.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:48:38.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutUser.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutUser.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwFEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:36:02.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoaiXe.cshtml",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\QuanLyXe\\LoaiXe.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuanLyXe\\LoaiXe.cshtml",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Views\\QuanLyXe\\LoaiXe.cshtml",
+              "RelativeToolTip": "Views\\QuanLyXe\\LoaiXe.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T09:18:48.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuanLyXeController.cs",
+              "DocumentMoniker": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Controllers\\QuanLyXeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QuanLyXeController.cs",
+              "ToolTip": "D:\\University\\HK1-Y3\\LapTrinhWeb_N2\\WebLab\\Controllers\\QuanLyXeController.cs",
+              "RelativeToolTip": "Controllers\\QuanLyXeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:11:56.296Z",
+              "EditorCaption": ""
             }
           ]
         },
