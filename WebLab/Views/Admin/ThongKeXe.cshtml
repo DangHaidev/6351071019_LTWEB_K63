@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "ThongKeXe";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@model Dictionary<string, int>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<h2>Thống kê Xe theo Loại</h2>
+
+<!-- Tạo canvas để vẽ biểu đồ -->
+<canvas id="myChart" width="400" height="200"></canvas>
+
+<script>
+    // Dữ liệu từ model truyền vào
+    var labels = @Html.Raw(Json.Encode(Model.Keys));  // Lấy danh sách tên loại xe
+    var data = @Html.Raw(Json.Encode(Model.Values));  // Lấy số lượng xe tương ứng
+
+    // Cấu hình biểu đồ
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',  // Loại biểu đồ là bar (cột)
+        data: {
+            labels: labels,  // Tên loại xe
+            datasets: [{
+                label: 'Số lượng xe',  // Nhãn cho biểu đồ
+                data: data,  // Số lượng xe
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',  // Màu nền của cột
+                borderColor: 'rgba(75, 192, 192, 1)',  // Màu viền của cột
+                borderWidth: 1  // Độ dày viền
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true  // Bắt đầu trục y từ 0
+                }
+            }
+        }
+    });
+</script>
+
+
+

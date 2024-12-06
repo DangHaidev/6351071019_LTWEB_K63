@@ -1,0 +1,48 @@
+﻿@model WebLab.ViewModels.LoginVM
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>@ViewBag.ThongBao</h2>
+<!-- Sign Up Start -->
+<div class="container-fluid">
+    <div class="row h-100 align-items-center justify-content-center" style="min-height: 100vh;">
+        <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
+            <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                    <a href="index.html" class="">
+                        <h3 class="text-primary"><i class="fa fa-hashtag me-2"></i>UPAGE</h3>
+                    </a>
+                    <h3> Đăng Nhập</h3>
+                </div>
+                @using (Html.BeginForm("SignIn", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <div class="form-floating mb-3">
+                  
+                        @Html.LabelFor(m => m.Taikhoan, new { @class = "form-label" })
+                        @Html.TextBoxFor(m => m.Taikhoan, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Taikhoan, "", new { @class = "text-danger" })
+
+                    </div>
+                    <div class="form-floating mb-4">
+                        
+                        @Html.LabelFor(m => m.Matkhau, new { @class = "form-label" })
+                        @Html.PasswordFor(m => m.Matkhau, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Matkhau, "", new { @class = "text-danger" })
+
+                    </div>                   
+                    <button type="submit" class="btn btn-primary py-3 w-100 mb-4"> Đăng nhập</button>
+                }
+                </div>
+        </div>
+    </div>
+</div>
+<!-- Sign Up End -->
+
+<style>
+    .form-label {
+        top: -40px;
+    }
+</style>

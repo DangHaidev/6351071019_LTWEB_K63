@@ -1,0 +1,86 @@
+﻿@model PagedList.PagedList<WebLab.Models.XEGANMAY>
+@using PagedList.Mvc
+@using WebLab.Models
+
+@helper  Truncate(string input , int lenght)
+    {
+    if(input.Length < lenght)
+    {
+        @input
+    }    else
+    {
+        @input.Substring(0,lenght) <text> ...</text>
+    }    
+    }
+
+@{
+    ViewBag.Title = "Xeganmay";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Danh sách xe gắn máy</h2>
+
+<p>
+    @Html.ActionLink("Thêm mới xe", "Create")
+</p>
+<table class="table" border="1">
+    <tr>        
+        <th>Tên xe</th>
+        <th>Giá bán</th>
+        <th>Mô tả</th>
+        <th>Ảnh bìa</th>
+        <th>Ngày cập nhật</th>
+        <th>Số lượng tồn</th>
+        <th>Loại xe</th>
+        <th>Nhà phân phối</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>          
+            <td>
+                @Html.DisplayFor(modelItem => item.TenXe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Giaban)
+            </td>
+            <td>
+                @Truncate(item.Mota,20)
+            </td>
+            <td>
+                <img src="@Url.Content("~/Content/HinhSanPham/" + item.Anhbia)" width="150"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluongton)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LOAIXE.TenLoaiXe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NHAPHANPHOI.TenNPP)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.MaXe }) |
+                @Html.ActionLink("Chi tiết", "Details", new { id = item.MaXe }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.MaXe })
+            </td>
+        </tr>
+    }
+
+</table>
+
+Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+
+<div class="MenuTrang" style="margin-left: 550px">
+    @Html.PagedListPager(Model, page => Url.Action("Xeganmay", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+        padding: 10px;
+    }
+</style>
