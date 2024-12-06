@@ -1,4 +1,6 @@
 ﻿using Microsoft.Ajax.Utilities;
+using PagedList;
+using PagedList.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +14,15 @@ namespace WebLab.Controllers
     {
         QLBanXeGanMayEntities db = new QLBanXeGanMayEntities();
         // GET: QuanLyXe
-        public ActionResult Index()
+        public ActionResult Index(int? page)
         {
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
             var data = db.XEGANMAY.ToList()
-                .OrderByDescending(p => p.Ngaycapnhat)
-                .Take(5);
+                .OrderByDescending(p => p.Ngaycapnhat)                
+                .ToPagedList(pageNum, pageSize);
+                ;
             return View(data);
         }
 

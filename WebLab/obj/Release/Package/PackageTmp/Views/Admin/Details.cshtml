@@ -1,0 +1,89 @@
+﻿@model WebLab.Models.XEGANMAY
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div style="padding-left : 50px">
+    <h4>Thông tin chi tiết xe gắn máy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+           Mã xe :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaXe)
+        </dd>
+
+        <dt>
+            Tên xe :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenXe)
+        </dd>
+
+        <dt>
+           Giá bán :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Giaban)
+        </dd>
+            
+        <dt>
+           Mô tả :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+
+        <dt>
+           Ảnh bìa :
+        </dt>
+
+        <dd>
+          <img src="~/Content/HinhSanPham/@Model.Anhbia" width="500" />
+        </dd>
+
+        <dt>
+            Ngày cập nhật :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ngaycapnhat)
+        </dd>
+
+        <dt>
+          Số lượng tồn :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+           Tên loại xe :
+
+        <dd>
+            @Html.DisplayFor(model => model.LOAIXE.TenLoaiXe)
+        </dd>
+
+        <dt>
+           Tên nhà phân phối :
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NHAPHANPHOI.TenNPP)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new {id = Model.MaXe }) |
+    @Html.ActionLink("Quay lại trang chủ", "xeganmay")
+</p>

@@ -1,0 +1,132 @@
+﻿@model IEnumerable<WebLab.ViewModels.GioHang>
+
+@{
+    ViewBag.Title = "DatHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Ma xe</th>
+                        <th scope="col">Tên xe </th>
+                        <th scope="col">Ảnh bìa</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Đơn giá</th>
+                        <th scope="col">Thành tiên</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td>
+                                <p class="mb-0 mt-4">
+
+
+                                    @item.MaXe
+
+
+                                </p>
+                            </td>
+                            <td>
+                                <p class="mb-0 mt-4">@item.TenXe </p>
+                            </td>
+                            <th scope="row">
+                                <div class="d-flex align-items-center">
+                                    <img src="~/Content/HinhSanPham/@item.Anhbia" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="@item.TenXe">
+                                </div>
+                            </th>
+
+                            @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @Maxe = item.MaXe }))
+                            {
+                                <td>
+
+
+                                    <input type="number" min="1" class="mb-0 mt-4" name="txtSoLuong" value="@item.soLuong">
+
+
+                                </td>
+                                <td>
+                                    <p class="mb-0 mt-4">@string.Format("{0:0,0}", item.Dongia) $</p>
+                                </td>
+                                <td>
+                                    <p class="mb-0 mt-4">@string.Format("{0:0,0}", item.ThanhTien) $</p>
+
+                                </td>
+
+                                <td> <a href=@Url.Action("Details", "QuanLyXe", new { id = item.MaXe })>Chi tiết</a></td>
+                                <td><a href=@Url.Action("XoaSP", "GioHang", new { id = item.MaXe })>Xóa</a></td>
+                                <td><button type="submit" class="btn btn-primary py-3 w-100 mb-4"> Cập nhật</button></td>
+                            }
+                        </tr>
+
+                    }
+                    <tr>
+                        <td>Số lượng sách : @ViewBag.TongSoLuong</td>
+                        <td>Tổng tiền : @string.Format("{0:0,0}", ViewBag.TongTien)  VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.ActionLink("Xóa giỏ hàng", "RemoveCart")</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            @Html.ActionLink("Đặt hàng", "DatHang", "GioHang")
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+<h2 style="text-align:center"> Thông tin đặt hàng</h2>
+
+@{ 
+    WebLab.Models.KHACHHANG kh = (WebLab.Models.KHACHHANG)Session["TaiKhoan"];
+}
+
+<table align="center">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <tr style="height: 40px;">
+            <td style="font-weight: bold;">Họ tên khách hàng:</td>
+            <td>@kh.HoTen</td>
+        </tr>
+        <tr style="height: 40px;">
+            <td style="font-weight: bold;">Địa chỉ:</td>
+            <td>@kh.DiachiKH</td>
+        </tr>
+        <tr style="height: 40px;">
+            <td style="font-weight: bold;">Điện thoại:</td>
+            <td>@kh.DienthoaiKH</td>
+        </tr>
+        <tr style="height: 40px;">
+            <td style="font-weight: bold;">Ngày đặt hàng:</td>
+            <td>@DateTime.Now.ToShortDateString()</td>
+        </tr>
+        <tr style="height: 40px;">
+            <td style="font-weight: bold;">Ngày giao hàng:</td>
+            <td>
+                <input type="date" name="Ngaygiao" style="width: 100%;" />
+            </td>
+        </tr>
+        <tr style="height: 40px; text-align: center;">
+            <td colspan="2">
+                <input type="submit" value="ĐỒNG Ý ĐẶT HÀNG" style="padding: 10px 20px; font-weight: bold; color: white; background-color: green; border: none; cursor: pointer;" />
+            </td>
+        </tr>
+    }
+</table>

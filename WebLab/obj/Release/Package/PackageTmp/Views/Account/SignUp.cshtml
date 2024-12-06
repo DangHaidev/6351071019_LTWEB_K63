@@ -1,0 +1,98 @@
+﻿@model WebLab.ViewModels.RegisterVM
+@{
+    ViewBag.Title = "Đăng ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <h1 class="mb-4">Đăng ký Thành viên</h1>
+
+        @using (Html.BeginForm("SignUp", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+         
+
+            <div class="row">
+                <!-- Họ tên khách hàng -->
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item w-100">
+                        @Html.LabelFor(m => m.HoTen, new { @class = "form-label my-3" })
+                        @Html.TextBoxFor(m => m.HoTen, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.HoTen, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Tên đăng nhập -->
+                <div class="col-md-12 col-lg-6">
+                    <div class="form-item">
+                        @Html.LabelFor(m => m.Taikhoan, new { @class = "form-label my-3" })
+                        @Html.TextBoxFor(m => m.Taikhoan, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Taikhoan, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Mật khẩu -->
+                <div class="col-md-12">
+                    <div class="form-item">
+                        @Html.LabelFor(m => m.Matkhau, new { @class = "form-label my-3" })
+                        @Html.PasswordFor(m => m.Matkhau, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Matkhau, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Nhập lại Mật khẩu -->
+                <div class="col-md-12">
+                    <div class="form-item">
+                        <label class="form-label">Nhập lại mật khẩu</label>
+                        @Html.PasswordFor(m => m.MatkhauConfirm, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.MatkhauConfirm, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="col-md-12">
+                    <div class="form-item">
+                        @Html.LabelFor(m => m.Email, new { @class = "form-label my-3" })
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Địa chỉ -->
+                <div class="col-md-12">
+                    <div class="form-item">
+                        @Html.LabelFor(m => m.DiachiKH, new { @class = "form-label my-3" })
+                        @Html.TextBoxFor(m => m.DiachiKH, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.DiachiKH, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Điện thoại -->
+                <div class="col-md-12">
+                    <div class="form-item">
+                        @Html.LabelFor(m => m.DienthoaiKH, new { @class = "form-label my-3" })
+                        @Html.TextBoxFor(m => m.DienthoaiKH, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.DienthoaiKH, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Ngày sinh -->
+                <div class="col-md-12">
+                    <div class="form-item">
+                        @Html.LabelFor(m => m.NgaySinh, new { @class = "form-label my-3" })
+                        @Html.TextBoxFor(m => m.NgaySinh, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                        @Html.ValidationMessageFor(m => m.NgaySinh, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <!-- Nút Đăng ký -->
+                <div class="col-12 text-center pt-4">
+                    <button type="submit" class="btn border-secondary py-3 px-4 text-uppercase w-100 text-primary">
+                        Đăng ký
+                    </button>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

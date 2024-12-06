@@ -1,0 +1,91 @@
+﻿@model IEnumerable<WebLab.ViewModels.GioHang>
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Ma xe</th>
+                        <th scope="col">Tên xe </th>
+                        <th scope="col">Ảnh bìa</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Đơn giá</th>
+                        <th scope="col">Thành tiên</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td>
+                                <p class="mb-0 mt-4">
+
+
+                                    @item.MaXe
+
+
+                                </p>
+                            </td>
+                            <td>
+                                <p class="mb-0 mt-4">@item.TenXe </p>
+                            </td>
+                            <th scope="row">
+                                <div class="d-flex align-items-center">
+                                    <img src="~/Content/HinhSanPham/@item.Anhbia" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="@item.TenXe">
+                                </div>
+                            </th>
+
+                            @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @Maxe = item.MaXe }))
+                            {
+                                <td>
+
+
+                                    <input type="number" min="1" class="mb-0 mt-4" name="txtSoLuong" value="@item.soLuong">
+
+
+                                </td>
+                                <td>
+                                    <p class="mb-0 mt-4">@string.Format("{0:0,0}", item.Dongia) $</p>
+                                </td>
+                                <td>
+                                    <p class="mb-0 mt-4">@string.Format("{0:0,0}", item.ThanhTien) $</p>
+
+                                </td>
+
+                                <td> <a href=@Url.Action("Details", "QuanLyXe", new { id = item.MaXe })>Chi tiết</a></td>
+                                <td><a href=@Url.Action("XoaSP", "GioHang", new { id = item.MaXe })>Xóa</a></td>
+                                <td><button type="submit" class="btn btn-primary py-3 w-100 mb-4"> Cập nhật</button></td>
+                            }
+                        </tr>
+
+                    }
+                    <tr>
+                        <td>Số lượng sách : @ViewBag.TongSoLuong</td>
+                        <td>Tổng tiền : @string.Format("{0:0,0}", ViewBag.TongTien)  VNĐ</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.ActionLink("Xóa giỏ hàng", "RemoveCart")</td>
+                    </tr>
+                   
+                    <tr>
+                        <td>
+                            @Html.ActionLink("Đặt hàng", "DatHang", "GioHang")
+                        </td>
+                    </tr>
+        
+        </tbody>
+        </table>
+    </div>
+    </div>
+</div>

@@ -33,5 +33,6 @@ namespace WebLab.Models
         public DbSet<NHAPHANPHOI> NHAPHANPHOI { get; set; }
         public DbSet<SANXUATXE> SANXUATXE { get; set; }
         public DbSet<XEGANMAY> XEGANMAY { get; set; }
+        public DbSet<Admin> Admin { get; set; }
     }
 }

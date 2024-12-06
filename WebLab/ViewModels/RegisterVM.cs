@@ -41,4 +41,11 @@ namespace WebLab.ViewModels
 
 
     }
+    public class LoginAdminVM
+    {
+        [Required(ErrorMessage = "Phải nhập tên đăng nhập")]
+        public string UserAdmin { get; set; }
+
+        public string PassAdmin { get; set; }
+    }
 }

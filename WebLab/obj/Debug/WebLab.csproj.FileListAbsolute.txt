@@ -79,3 +79,7 @@ D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.csproj.CoreCompileIn
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.csproj.Up2Date
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.dll
 D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\obj\Debug\WebLab.pdb
+D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\PagedList.dll
+D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\PagedList.Mvc.dll
+D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\PagedList.xml
+D:\University\HK1-Y3\LapTrinhWeb_N2\WebLab\bin\PagedList.Mvc.xml
